@@ -1,39 +1,36 @@
-.speakersArea{
-    background-color: #101e27;
-    width: 100%;
+.speakersArea {
+  background-color: #02252e;
+  width: 100%;
 }
 
-.speakersArea_header{
-    text-align: center;
-    
+.speakersArea_header {
+  text-align: center;
 }
 
-.speakersArea_body{
-    display: flex;
-    justify-content: center;
-    padding: 10px  0 20px 0 ;
+.speakersArea_body {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 20px 0;
 }
-.speakersArea_body_left{
+.speakersArea_body_left {
   padding-right: 25px;
 }
-.speakersArea_body_right{
+.speakersArea_body_right {
   padding-left: 25px;
 }
 
-@media (max-width: 640px){
-    .speakersArea_body{
-        display: inline;
-    }
-    .speakersArea_body_left{
-        padding-right: 0;
-        margin-bottom: 20px;
-        text-align: center;
-        
-    }
+@media (max-width: 640px) {
+  .speakersArea_body {
+    display: inline;
+  }
+  .speakersArea_body_left {
+    padding-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 
-    .speakersArea_body_right{
-        padding-left: 0;
-        text-align: center;
-        
-    }
+  .speakersArea_body_right {
+    padding-left: 0;
+    text-align: center;
+  }
 }

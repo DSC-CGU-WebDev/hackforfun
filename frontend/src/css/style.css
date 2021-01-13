@@ -1,0 +1,78 @@
+nav {
+  background-color: #010c0f;
+  padding: 0 !important;
+}
+.navbar-brand img {
+  width: 75px;
+}
+.nav-link {
+  font-size: 1rem;
+  font-weight: 550;
+  color: #acacac !important;
+  border-bottom: 3px solid rgba(44, 48, 68, 0);
+  font-family: "Lato", sans-serif !important;
+}
+.nav--active {
+  color: white !important;
+}
+button.navbar-toggler {
+  outline: none !important;
+  color: white !important;
+  border: none;
+  font-size: 25px;
+}
+.nav-link:hover,
+.active > a {
+  color: white !important;
+  border-bottom: 3px solid #104856;
+  font-weight: 600;
+}
+
+.banner {
+  width: 100%;
+  /* height: 500px; */
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.banner h1 {
+  text-align: center;
+  padding-top: 47vh;
+  color: #acacac;
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: batmanForever;
+  text-shadow: 0 0 10px #0aafe6, 0 0 10px rgba(10, 175, 230, 0);
+}
+
+@font-face {
+  font-family: batmanForever;
+  src: url(batmfa__.ttf);
+}
+
+/* timer */
+#timer {
+  font-family: "Share Tech Mono", monospace;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+}
+#timer .time {
+  letter-spacing: 0.05em;
+  font-size: 4rem;
+  padding: 5px 0;
+}
+@media only screen and (max-width: 576px) {
+  .banner h1 {
+    font-size: 3rem;
+  }
+  #timer .time {
+    font-size: 2rem;
+  }
+}
