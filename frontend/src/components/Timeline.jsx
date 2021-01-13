@@ -43,7 +43,7 @@ function Timeline() {
                     <li>
                         <div className="container">
                             <time>Day-1</time>
-                            <img className="img" src={day_1} />
+                            <img className="img" src={day_1} alt='hackforfun' />
                             <div className="text">
                                 <p>Introduction To Ethical Hacking</p>
                                 <p> 5:00 – 7:00 PM</p>
@@ -54,7 +54,7 @@ function Timeline() {
                     <li>
                         <div className="container">
                             <time>Day-2</time>
-                            <img className="img" src={day_2} />
+                            <img className="img" src={day_2} alt='hackforfun' />
                             <div className="text">
                                 <p>Scanning Network</p>
                                 <p>5:00 – 7:00 PM </p>
@@ -65,7 +65,7 @@ function Timeline() {
                     <li>
                         <div className="container">
                             <time>Day-3</time>
-                            <img className="img" src={day_3} />
+                            <img className="img" src={day_3} alt='hackforfun' />
                             <div className="text">
                                 <p>WIFI Hacking And IOT </p>
                                 <p>5:00 – 7:00 PM</p>
@@ -76,7 +76,7 @@ function Timeline() {
                     <li>
                         <div className="container">
                             <time>Day-4</time>
-                            <img className="img" src={day_4} />
+                            <img className="img" src={day_4} alt='hackforfun' />
                             <div className="text">
                                 <p>  Web Exploitation</p>
                                 <p>5:00 – 7:00 PM </p>
@@ -87,7 +87,7 @@ function Timeline() {
                     <li>
                         <div className="container">
                             <time>Day-5</time>
-                            <img className="img" src={day_5} />
+                            <img className="img" src={day_5} alt='hackforfun' />
                             <div className="text">
                                 <p>Web Exploitation And Forensics </p>
                                 <p>5:00 – 7:00 PM</p>
@@ -98,7 +98,7 @@ function Timeline() {
                     <li>
                         <div className="container">
                             <time>Day-6</time>
-                            <img className="img" src={day_6} />
+                            <img className="img" src={day_6} alt='hackforfun' />
                             <div className="text">
                                 <p>Phishing And Modern Threads </p>
                                 <p>5:00 – 7:00 PM</p>

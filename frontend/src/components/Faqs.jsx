@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/faqs.css'
 function Faqs() {
-    const items = document.querySelectorAll(".accordion a");
+    const items = document.querySelectorAll(".accordion p");
 
     function toggleAccordion() {
         this.classList.toggle("active");
@@ -15,37 +15,37 @@ function Faqs() {
                 <h1 className="heading">Frequently Asked Questions</h1>
                 <div className="accordion">
                     <div className="accordion-item">
-                        <a>What is this workshop for?</a>
+                        <p>What is this workshop for?</p>
                         <div className="content">
                             <p>This workshop is a secure step to the future of the world with the Knowledge of Ethical Hacking with no boundary of knowledge and a great experience of Hands-on Skills.</p>
                         </div>
                     </div>
                     <div className="accordion-item">
-                        <a>What will you gain from this workshop?</a>
+                        <p>What will you gain from this workshop?</p>
                         <div className="content">
                             <p>Experience with Interest, Knowledge with Skill, Development with Quality.</p>
                         </div>
                     </div>
                     <div className="accordion-item">
-                        <a>How many days will this workshop go on?</a>
+                        <p>How many days will this workshop go on?</p>
                         <div className="content">
                             <p>This event is for 12 days, with 6 days of innovative sessions and one day break for your practice after every session.</p>
                         </div>
                     </div>
                     <div className="accordion-item">
-                        <a>Are we going to receive any swag post this event?</a>
+                        <p>Are we going to receive any swag post this event?</p>
                         <div className="content">
                             <p>We beleive technical events are for grasping knowledge as much we can. Moreover, we wil provide you all participation certificate after attending all the session which will be live on youtube.           </p>
                         </div>
                     </div>
                     <div className="accordion-item">
-                        <a>Any prerequisite?</a>
+                        <p>Any prerequisite?</p>
                         <div className="content">
                             <p>This course doesn't have any prerequisite what we require the most is your zeal to learn new things.</p>
                         </div>
                     </div>
                     <div className="accordion-item">
-                        <a>What are we going to learn</a>
+                        <p>What are we going to learn</p>
                         <div className="content">
                             <p>These are a few topics we weill be covering overall</p>
                             <ul>
