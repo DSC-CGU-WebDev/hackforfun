@@ -1,10 +1,14 @@
 @font-face {
-  font-family: 'oswald';
-  src: url('batman_forever/batmfa__.ttf');
+  font-family: "oswald";
+  src: url("batman_forever/batmfa__.ttf");
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 html {
   -webkit-box-sizing: border-box;
@@ -13,16 +17,16 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hind", sans-serif;
   background: #101e27;
   display: flex;
   min-height: 100vh;
 }
-.heading{
-  font-family: 'oswald';
+.heading {
+  font-family: "oswald";
   font-size: 40px;
   color: #f2f5f6;
-  text-align: center ;
+  text-align: center;
 }
 .container {
   margin: 0 auto;
@@ -64,8 +68,8 @@ h3 {
   border-bottom: 1px solid #f2f5f6;
 }
 .accordion a::after {
-  font-family: 'Ionicons';
-  content: '\f218';
+  font-family: "Ionicons";
+  content: "\f218";
   position: absolute;
   float: right;
   right: 1rem;
@@ -81,8 +85,8 @@ h3 {
   text-align: center;
 }
 .accordion a.active::after {
-  font-family: 'Ionicons';
-  content: '\f209';
+  font-family: "Ionicons";
+  content: "\f209";
   color: #f2f5f6;
   border: 1px solid #f2f5f6;
 }
@@ -97,7 +101,8 @@ h3 {
   -o-transition: all 0.2s ease 0.15s;
   transition: all 0.2s ease 0.15s;
 }
-.accordion .content p , .accordion .content li {
+.accordion .content p,
+.accordion .content li {
   font-size: 1rem;
   color: #b3c5ca;
   font-weight: 50;
