@@ -8,6 +8,7 @@ import logo from "./images/logo.png";
 import "./css/style.css";
 import bg from "./images/bg.jpg";
 import Faqs from "./components/Faqs.jsx";
+import Timeline from "./components/Timeline.jsx";
 
 function App() {
   const bgStyle = {
@@ -114,6 +115,8 @@ function App() {
           <div className="time">{time}</div>
         </div>
       </div>
+      <Timeline />
+      <hr className="m-0" />
       <SpeakerSection />
       <hr className="m-0" />
       <Faqs />

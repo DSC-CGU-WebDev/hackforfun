@@ -1,8 +1,14 @@
 html {
   scroll-behavior: smooth;
 }
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
 nav {
-  background-color: #0b1517;
+  background-color: hsl(203, 42%, 11%);
+  /* #0b1517; */
   /* #101e27; */
   /* #01161b; */
   padding: 0 !important;

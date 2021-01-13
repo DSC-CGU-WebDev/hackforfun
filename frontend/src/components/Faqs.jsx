@@ -1,7 +1,5 @@
 import React from 'react'
 import '../css/faqs.css'
-import './faqs.js'
-
 function Faqs() {
     const items = document.querySelectorAll(".accordion a");
 
@@ -14,7 +12,7 @@ function Faqs() {
     return (
         <div className="body" id='faqs'>
             <div className="faqs_container">
-                <h2 className="heading">Frequently Asked Questions</h2>
+                <h1 className="heading">Frequently Asked Questions</h1>
                 <div className="accordion">
                     <div className="accordion-item">
                         <a>What is this workshop for?</a>

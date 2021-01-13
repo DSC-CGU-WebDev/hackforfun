@@ -18,17 +18,18 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Hind", sans-serif;
-  background: #0b1517;
+  background: hsl(203, 42%, 11%);
+  /* #0b1517; */
   /* #101e27; */
   display: flex;
   min-height: 100vh;
 }
-.heading {
+/* .heading {
   font-family: "oswald";
-  font-size: 40px;
+  font-size: 32px;
   color: #f2f5f6;
   text-align: center;
-}
+} */
 .faqs_container {
   margin: 0 auto;
   max-width: 48rem;
@@ -117,4 +118,9 @@ h3 {
   -webkit-transition: all 0.35s ease 0.15s;
   -o-transition: all 0.35s ease 0.15s;
   transition: all 0.35s ease 0.15s;
+}
+@media only screen and (max-width: 400px) {
+  .faqs_container {
+    max-width: 20rem;
+  }
 }

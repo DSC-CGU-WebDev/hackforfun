@@ -24,7 +24,7 @@ const Speaker = (props) => {
           </Card.Text>
         </Card.Body>
         <div className="overlay">
-          <div className="text">
+          <div className="social">
             <a href={linkedin}>
               <i className="fa fa-linkedin"></i>
             </a>

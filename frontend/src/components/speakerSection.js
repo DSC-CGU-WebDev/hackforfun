@@ -6,7 +6,7 @@ const SpeakerSection = () => {
   return (
     <div className="speakersArea" id="speakers">
       <div className="speakersArea_header">
-        <h2 className="mb-3">Our Speakers</h2>
+        <h1 className="heading">Our Speakers</h1>
       </div>
       <div className="  speakersArea_body">
         <div className="speakersArea_body_left">
