@@ -9,6 +9,7 @@ import "./css/style.css";
 import bg from "./images/bg.jpg";
 import Faqs from "./components/Faqs.jsx";
 import Timeline from "./components/Timeline.jsx";
+import Footer from "./components/Footer";
 
 function App() {
   const bgStyle = {
@@ -17,7 +18,7 @@ function App() {
 
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    let difference = +new Date(`02/05/${year}`) - +new Date();
+    let difference = +new Date(`02/03/${year}`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -69,10 +70,10 @@ function App() {
 
   return (
     <>
-      <Navbar className="px-3 py-3" expand="lg">
+      <Navbar className="px-3 py-2 fixed-top" expand="lg">
         <div className="container">
           <a className="navbar-brand" href="/">
-            <img src={logo} alt="" />
+            <img src={logo} alt="h4f logo" />
           </a>
           <Navbar.Toggle aria-controls="navbarSupportedContent">
             <FontAwesomeIcon icon={faBars} className="nav-toggler" />
@@ -80,12 +81,12 @@ function App() {
           <Navbar.Collapse id="navbarSupportedContent">
             <Nav className="ml-auto mb-2 mb-lg-0">
               <li className="nav-item px-2">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/#home">
                   HOME
                 </a>
               </li>
               <li className="nav-item dropdown  px-2">
-                <a className="nav-link" href="/#top-destinations">
+                <a className="nav-link" href="/#timeline">
                   TIMELINE
                 </a>
               </li>
@@ -100,7 +101,7 @@ function App() {
                 </a>
               </li>
               <li className="nav-item  px-2">
-                <a className="nav-link" href="/contact-us">
+                <a className="nav-link" href="/#footer">
                   CONTACT US
                 </a>
               </li>
@@ -109,17 +110,23 @@ function App() {
         </div>
       </Navbar>
       {/*Speaker  Section .... */}
-      <div className="banner" style={bgStyle}>
+      <div className="banner" style={bgStyle} id="home">
         <h1>Hack For Fun</h1>
         <div id="timer">
           <div className="time">{time}</div>
         </div>
+        <a href="/" className="btn btn-theme">
+          Apply Now
+        </a>
       </div>
+      <hr className="m-0" />
       <Timeline />
       <hr className="m-0" />
       <SpeakerSection />
       <hr className="m-0" />
       <Faqs />
+      <hr className="m-0" />
+      <Footer />
     </>
   );
 }

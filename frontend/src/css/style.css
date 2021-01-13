@@ -4,24 +4,20 @@ html {
 * {
   margin: 0;
   padding: 0;
-  /* overflow-x: hidden; */
 }
 nav {
-  background-color: hsl(203, 42%, 11%);
-  /* #0b1517; */
-  /* #101e27; */
-  /* #01161b; */
+  background-color: #0e1c24;
   padding: 0 !important;
+  font-family: batmanForever;
 }
 .navbar-brand img {
   width: 75px;
 }
 .nav-link {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 550;
-  color: #acacac !important;
+  color: #eae3d4 !important;
   border-bottom: 3px solid rgba(44, 48, 68, 0);
-  font-family: "Lato", sans-serif !important;
 }
 .nav--active {
   color: white !important;
@@ -35,22 +31,21 @@ button.navbar-toggler {
 .nav-link:hover,
 .active > a {
   color: white !important;
-  border-bottom: 3px solid #104856;
+  border-bottom: 3px solid #356571;
   font-weight: 600;
 }
-
 .banner {
   width: 100%;
-  /* height: 500px; */
-  height: 90vh;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  text-align: center;
 }
 .banner h1 {
   text-align: center;
-  padding-top: 47vh;
+  padding-top: 56vh;
   color: #acacac;
   font-size: 4rem;
   font-weight: 500;
@@ -84,6 +79,15 @@ button.navbar-toggler {
     font-size: 3rem;
   }
   #timer .time {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
+}
+hr {
+  background-color: white;
+}
+.btn-theme {
+  color: #fff !important;
+  background-color: #356571;
+  border-color: #101f28;
+  padding: 8px 18px;
 }

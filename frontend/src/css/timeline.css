@@ -144,30 +144,15 @@
   .timeline ul li:nth-of-type(even) > div {
     left: 45px;
   }
-  /* .text {
-    margin-left: -230px !important;
-  } */
 }
 .img {
   height: inherit !important;
   width: inherit !important;
   border-radius: 10px;
 }
-/* .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  background-color: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)
-  );
-} */
 .heading {
   font-size: 37px;
   text-align: center;
-  /* margin: 30px; */
   color: #f2f5f6;
   font-family: "oswald";
 }

@@ -36,7 +36,7 @@ function Timeline() {
     window.addEventListener("scroll", callbackFunc);
 
     return (
-        <div className='timeline_body'>
+        <div className='timeline_body' id='timeline' >
             <section className="timeline">
                 <h1 className="heading"> Timeline</h1>
                 <ul>
@@ -108,7 +108,7 @@ function Timeline() {
                     </li>
                 </ul>
             </section>
-        </div>
+        </div >
     )
 }
 
