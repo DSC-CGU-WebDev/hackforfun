@@ -7,6 +7,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import logo from "./images/logo.png";
 import "./css/style.css";
 import bg from "./images/bg.jpg";
+import Faqs from "./components/Faqs.jsx";
 
 function App() {
   const bgStyle = {
@@ -67,7 +68,7 @@ function App() {
 
   return (
     <>
-      <Navbar className="px-3 py-2" expand="lg">
+      <Navbar className="px-3 py-3" expand="lg">
         <div className="container">
           <a className="navbar-brand" href="/">
             <img src={logo} alt="" />
@@ -88,13 +89,13 @@ function App() {
                 </a>
               </li>
               <li className="nav-item  px-2">
-                <a className="nav-link" href="/#top-destinations">
+                <a className="nav-link" href="/#speakers">
                   SPEAKERS
                 </a>
               </li>
               <li className="nav-item  px-2">
-                <a className="nav-link" href="/#shorcuts">
-                  ABOUT US
+                <a className="nav-link" href="/#faqs">
+                  FAQS
                 </a>
               </li>
               <li className="nav-item  px-2">
@@ -114,6 +115,8 @@ function App() {
         </div>
       </div>
       <SpeakerSection />
+      <hr className="m-0" />
+      <Faqs />
     </>
   );
 }

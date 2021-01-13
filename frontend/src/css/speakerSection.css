@@ -1,10 +1,16 @@
 .speakersArea {
-  background-color: #02252e;
+  background-color: #0b1517;
+  /* #112125; */
+  /* #101e27; */
+  /* #101e27; */
   width: 100%;
 }
 
-.speakersArea_header {
+.speakersArea_header,
+.speakersArea_header h2 {
   text-align: center;
+  font-family: batmanForever;
+  color: #acacac;
 }
 
 .speakersArea_body {

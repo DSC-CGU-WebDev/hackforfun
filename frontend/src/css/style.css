@@ -1,5 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
 nav {
-  background-color: #010c0f;
+  background-color: #0b1517;
+  /* #101e27; */
+  /* #01161b; */
   padding: 0 !important;
 }
 .navbar-brand img {
@@ -54,7 +59,7 @@ button.navbar-toggler {
 
 /* timer */
 #timer {
-  font-family: "Share Tech Mono", monospace;
+  font-family: batmanForever;
   color: #ffffff;
   text-align: center;
   position: absolute;
@@ -65,7 +70,7 @@ button.navbar-toggler {
 }
 #timer .time {
   letter-spacing: 0.05em;
-  font-size: 4rem;
+  font-size: 3rem;
   padding: 5px 0;
 }
 @media only screen and (max-width: 576px) {

@@ -4,9 +4,9 @@ import "../css/speakerSection.css";
 
 const SpeakerSection = () => {
   return (
-    <div className="speakersArea py-4">
+    <div className="speakersArea" id="speakers">
       <div className="speakersArea_header">
-        <h2 style={{ color: "white" }}>Our Speakers</h2>
+        <h2 className="mb-3">Our Speakers</h2>
       </div>
       <div className="  speakersArea_body">
         <div className="speakersArea_body_left">
