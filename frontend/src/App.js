@@ -123,7 +123,7 @@ function App() {
           Register now
         </a>
         </div>
-        <a href="/"><img src={discord} className="btn-discord" alt="discord"/></a>
+        <a href="https://discord.gg/5B9q6jS4Zh" target="_blank" ><img src={discord} className="btn-discord" alt="discord"/></a>
       </div>
       <hr className="m-0" />
       <Timeline />
