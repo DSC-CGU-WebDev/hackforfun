@@ -90,4 +90,47 @@ hr {
   background-color: #356571;
   border-color: #101f28;
   padding: 8px 18px;
+  
+}
+.btn-badge{
+  background-color: black;
+  border-color: rgb(194, 191, 191);
+  padding: 8px 18px;
+  color:rgb(194, 191, 191)  ;
+  
+}
+.btn-discord{
+  width: 17%;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.btn-badge:hover {
+  background-color:rgb(194, 191, 191) ;
+  border-color: rgb(194, 191, 191);
+  color: black;
+}
+@media (max-Width: 1070px){
+   .btn-discord{
+     width: 20%;
+   }
+}
+@media (max-Width: 850px){
+  .btn-discord{
+    width: 25%;
+  }
+}
+@media (max-Width: 630px){
+  .btn-discord{
+    width: 30%;
+  }
+}
+@media (max-Width:  500px){
+  .btn-discord{
+    width: 37%;
+  }
+}
+@media (max-Width:  370px){
+  .btn-discord{
+    width: 42%;
+  }
 }
