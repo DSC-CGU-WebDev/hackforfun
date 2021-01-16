@@ -42,32 +42,21 @@ function App() {
     return () => clearTimeout(timer);
   });
 
-  const timerComponents = [];
   var time =
-    timeLeft.days +
-    "D" +
-    ":" +
-    timeLeft.hours +
-    "H" +
-    ":" +
-    timeLeft.minutes +
-    "M" +
-    ":" +
-    timeLeft.seconds +
-    "S";
-
-  Object.keys(timeLeft).forEach((interval) => {
-    if (!timeLeft[interval]) {
-      return;
-    }
-
-    timerComponents.push(
-      <span>
-        {timeLeft[interval]} {interval}
-      </span>
-    );
-  });
-
+    timeLeft.days === undefined
+      ? "Time's up!"
+      : timeLeft.days +
+        "D" +
+        ":" +
+        timeLeft.hours +
+        "H" +
+        ":" +
+        timeLeft.minutes +
+        "M" +
+        ":" +
+        timeLeft.seconds +
+        "S";
+  console.log(timeLeft);
   return (
     <>
       <Navbar className="px-3 py-2 fixed-top" expand="lg">
