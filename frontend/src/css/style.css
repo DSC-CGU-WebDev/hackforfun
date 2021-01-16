@@ -36,7 +36,7 @@ button.navbar-toggler {
 }
 .banner {
   width: 100%;
-  height: 100vh;
+  height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +45,7 @@ button.navbar-toggler {
 }
 .banner h1 {
   text-align: center;
-  padding-top: 56vh;
+  padding-top: 360px;
   color: #acacac;
   font-size: 4rem;
   font-weight: 500;
@@ -65,8 +65,8 @@ button.navbar-toggler {
   text-align: center;
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 30%;
+  transform: translate(-50%, 30%);
   text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
 }
 #timer .time {
@@ -77,6 +77,7 @@ button.navbar-toggler {
 @media only screen and (max-width: 576px) {
   .banner h1 {
     font-size: 3rem;
+    padding-top: 350px;
   }
   #timer .time {
     font-size: 1.8rem;
@@ -90,47 +91,45 @@ hr {
   background-color: #356571;
   border-color: #101f28;
   padding: 8px 18px;
-  
 }
-.btn-badge{
+.btn-badge {
   background-color: black;
   border-color: rgb(194, 191, 191);
   padding: 8px 18px;
-  color:rgb(194, 191, 191)  ;
-  
+  color: rgb(194, 191, 191);
 }
-.btn-discord{
+.btn-discord {
   width: 17%;
   margin-top: 40px;
   cursor: pointer;
 }
 .btn-badge:hover {
-  background-color:rgb(194, 191, 191) ;
+  background-color: rgb(194, 191, 191);
   border-color: rgb(194, 191, 191);
   color: black;
 }
-@media (max-Width: 1070px){
-   .btn-discord{
-     width: 20%;
-   }
+@media (max-width: 1070px) {
+  .btn-discord {
+    width: 20%;
+  }
 }
-@media (max-Width: 850px){
-  .btn-discord{
+@media (max-width: 850px) {
+  .btn-discord {
     width: 25%;
   }
 }
-@media (max-Width: 630px){
-  .btn-discord{
+@media (max-width: 630px) {
+  .btn-discord {
     width: 30%;
   }
 }
-@media (max-Width:  500px){
-  .btn-discord{
+@media (max-width: 500px) {
+  .btn-discord {
     width: 37%;
   }
 }
-@media (max-Width:  370px){
-  .btn-discord{
+@media (max-width: 370px) {
+  .btn-discord {
     width: 42%;
   }
 }

@@ -10,7 +10,7 @@ import bg from "./images/bg.jpg";
 import Faqs from "./components/Faqs.jsx";
 import Timeline from "./components/Timeline.jsx";
 import Footer from "./components/Footer";
-import discord  from '../src/images/discord.png'
+import discord from "../src/images/discord.png";
 function App() {
   const bgStyle = {
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bg})`,
@@ -115,15 +115,38 @@ function App() {
         <div id="timer">
           <div className="time">{time}</div>
         </div>
-        <div style={{margin:"0 auto", maxWidth:"450px", display:"flex", justifyContent:"space-evenly"}}>
-        <a href="https://badge.hackforfun.dsccvrgu.tech/" target="_blank" className="btn btn-badge">
-        Get Your Cyber Badge
-        </a>
-        <a href="https://dsccvrgu.tech/events" target="_blank" className="btn btn-theme" >
-          Register now
-        </a>
+        <div
+          style={{
+            margin: "0 auto",
+            maxWidth: "450px",
+            display: "flex",
+            justifyContent: "space-evenly",
+          }}
+        >
+          <a
+            href="https://badge.hackforfun.dsccvrgu.tech/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-badge"
+          >
+            Get Your Cyber Badge
+          </a>
+          <a
+            href="https://dsccvrgu.tech/events"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-theme"
+          >
+            Register now
+          </a>
         </div>
-        <a href="https://discord.gg/5B9q6jS4Zh" target="_blank" ><img src={discord} className="btn-discord" alt="discord"/></a>
+        <a
+          href="https://discord.gg/5B9q6jS4Zh"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={discord} className="btn-discord" alt="discord" />
+        </a>
       </div>
       <hr className="m-0" />
       <Timeline />
