@@ -121,7 +121,7 @@ function App() {
             Get Your Cyber Badge
           </a>
           <a
-            href="https://dsccvrgu.tech/events"
+            href="https://forms.gle/jjz4X6sD3CwMNhrr6"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-theme"
