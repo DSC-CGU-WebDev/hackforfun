@@ -130,7 +130,7 @@ function App() {
           </a>
         </div>
         <a
-          href="https://discord.gg/5B9q6jS4Zh"
+          href="https://discord.gg/srEmNXmZhx"
           target="_blank"
           rel="noopener noreferrer"
         >
