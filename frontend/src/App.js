@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SpeakerSection from "../src/components/speakerSection";
+import GuestSpeaker from "../src/components/GuestSpeaker.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -56,7 +57,6 @@ function App() {
         ":" +
         timeLeft.seconds +
         "S";
-  console.log(timeLeft);
   return (
     <>
       <Navbar className="px-3 py-2 fixed-top" expand="lg">
@@ -139,6 +139,8 @@ function App() {
       </div>
       <hr className="m-0" />
       <Timeline />
+      <hr className="m-0" />
+      <GuestSpeaker />
       <hr className="m-0" />
       <SpeakerSection />
       <hr className="m-0" />

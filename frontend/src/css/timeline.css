@@ -32,7 +32,7 @@
   background: #b3c5ca;
 }
 
-.timeline ul li div {
+.timeline ul li a div {
   position: relative;
   bottom: 0;
   width: 300px;
@@ -43,7 +43,7 @@
   align-items: center;
 }
 
-.timeline ul li div time {
+.timeline ul li a div time {
   position: absolute;
   background: #356571;
   color: #f2f5f6;
@@ -58,7 +58,7 @@
   z-index: 1000 !important;
 }
 
-.timeline ul li div div {
+.timeline ul li a div div {
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -66,25 +66,25 @@
   align-items: center;
 }
 
-.timeline ul li div div p {
+.timeline ul li a div div p {
   text-align: center;
   margin-bottom: 12px;
   padding-bottom: 0;
 }
 
-.timeline ul li div .discovery {
+.timeline ul li a div .discovery {
   margin-right: 10px;
 }
 
-.timeline ul li:nth-of-type(odd) > div {
+.timeline ul li:nth-of-type(odd) > a > div {
   left: 45px;
 }
 
-.timeline ul li:nth-of-type(even) > div {
+.timeline ul li:nth-of-type(even) > a > div {
   left: -439px;
 }
 
-.timeline ul li div {
+.timeline ul li a div {
   visibility: hidden;
   opacity: 0;
   transition: all 0.5s ease-in-out;
@@ -115,19 +115,15 @@
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 @media screen and (max-width: 900px) {
-  .timeline ul li div div {
+  .timeline ul li a div div {
     width: 80%;
     margin: 10px;
   }
-  .timeline ul li:nth-of-type(even) > div {
+  .timeline ul li:nth-of-type(even) > a > div {
     left: -289px;
   }
-  /* .text {
-    margin-left: -260px !important;
-  } */
 }
-.timeline ul li div {
-  /* width: 250px; */
+.timeline ul li a div {
   flex-direction: column;
 }
 
@@ -138,10 +134,10 @@
   .timeline ul li {
     margin-left: 20px;
   }
-  .timeline ul li div {
+  .timeline ul li a div {
     width: calc(100vw - 91px);
   }
-  .timeline ul li:nth-of-type(even) > div {
+  .timeline ul li:nth-of-type(even) > a > div {
     left: 45px;
   }
 }
@@ -161,4 +157,8 @@
 }
 .container {
   position: relative;
+}
+#timeline a {
+  text-decoration: none;
+  pointer-events: none;
 }

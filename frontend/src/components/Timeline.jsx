@@ -41,70 +41,82 @@ function Timeline() {
                 <h1 className="heading"> Timeline</h1>
                 <ul>
                     <li>
-                        <div className="container">
-                            <time>Day-1</time>
-                            <img className="img" src={day_1} alt='hackforfun' />
-                            <div className="text">
-                                <p>Introduction To Ethical Hacking</p>
-                                <p> 5:00 – 7:00 PM</p>
-                                <p>February 3, Wednesday</p>
+                        <a href="https://hackforfun.dsccvrgu.tech/" target="_blank" rel="noopener noreferrer">
+                            <div className="container">
+                                <time>Day-1</time>
+                                <img className="img" src={day_1} alt='hackforfun' />
+                                <div className="text">
+                                    <p>Introduction To Ethical Hacking</p>
+                                    <p> 5:00 – 7:00 PM</p>
+                                    <p>February 3, Wednesday</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div className="container">
-                            <time>Day-2</time>
-                            <img className="img" src={day_2} alt='hackforfun' />
-                            <div className="text">
-                                <p>Scanning Network</p>
-                                <p>5:00 – 7:00 PM </p>
-                                <p>February 5, Friday</p>
+                        <a href="https://hackforfun.dsccvrgu.tech/" target="_blank" rel="noopener noreferrer">
+                            <div className="container">
+                                <time>Day-2</time>
+                                <img className="img" src={day_2} alt='hackforfun' />
+                                <div className="text">
+                                    <p>Scanning Network</p>
+                                    <p>5:00 – 7:00 PM </p>
+                                    <p>February 5, Friday</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div className="container">
-                            <time>Day-3</time>
-                            <img className="img" src={day_3} alt='hackforfun' />
-                            <div className="text">
-                                <p>WIFI Hacking And IOT </p>
-                                <p>5:00 – 7:00 PM</p>
-                                <p>February 7, Sunday </p>
+                        <a href="https://hackforfun.dsccvrgu.tech/" target="_blank" rel="noopener noreferrer">
+                            <div className="container">
+                                <time>Day-3</time>
+                                <img className="img" src={day_3} alt='hackforfun' />
+                                <div className="text">
+                                    <p>WIFI Hacking And IOT </p>
+                                    <p>5:00 – 7:00 PM</p>
+                                    <p>February 7, Sunday </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div className="container">
-                            <time>Day-4</time>
-                            <img className="img" src={day_4} alt='hackforfun' />
-                            <div className="text">
-                                <p>  Web Exploitation</p>
-                                <p>5:00 – 7:00 PM </p>
-                                <p> February 9, Tuesday </p>
+                        <a href="https://hackforfun.dsccvrgu.tech/" target="_blank" rel="noopener noreferrer">
+                            <div className="container">
+                                <time>Day-4</time>
+                                <img className="img" src={day_4} alt='hackforfun' />
+                                <div className="text">
+                                    <p>  Web Exploitation</p>
+                                    <p>5:00 – 7:00 PM </p>
+                                    <p> February 9, Tuesday </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div className="container">
-                            <time>Day-5</time>
-                            <img className="img" src={day_5} alt='hackforfun' />
-                            <div className="text">
-                                <p>Web Exploitation And Forensics </p>
-                                <p>5:00 – 7:00 PM</p>
-                                <p>February 11, Thursday</p>
+                        <a href="https://hackforfun.dsccvrgu.tech/" target="_blank" rel="noopener noreferrer">
+                            <div className="container">
+                                <time>Day-5</time>
+                                <img className="img" src={day_5} alt='hackforfun' />
+                                <div className="text">
+                                    <p>Web Exploitation And Forensics </p>
+                                    <p>5:00 – 7:00 PM</p>
+                                    <p>February 11, Thursday</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div className="container">
-                            <time>Day-6</time>
-                            <img className="img" src={day_6} alt='hackforfun' />
-                            <div className="text">
-                                <p>Phishing And Modern Threads </p>
-                                <p>5:00 – 7:00 PM</p>
-                                <p>February 13, Saturday</p>
+                        <a href="https://hackforfun.dsccvrgu.tech/" target="_blank" rel="noopener noreferrer">
+                            <div className="container">
+                                <time>Day-6</time>
+                                <img className="img" src={day_6} alt='hackforfun' />
+                                <div className="text">
+                                    <p>Phishing And Modern Threads </p>
+                                    <p>5:00 – 7:00 PM</p>
+                                    <p>February 13, Saturday</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </li>
                 </ul>
             </section>

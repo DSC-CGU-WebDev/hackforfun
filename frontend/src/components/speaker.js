@@ -2,7 +2,15 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import "../css/speaker.css";
 const Speaker = (props) => {
-  const { name, designation, linkedin, photourl } = props;
+  const {
+    name,
+    designation,
+    org,
+    facebook,
+    twitter,
+    linkedin,
+    photourl,
+  } = props;
   return (
     <div>
       <Card
@@ -20,14 +28,26 @@ const Speaker = (props) => {
           <Card.Text>
             {designation}
             <br />
-            DSC CVRGU
+            {org}
           </Card.Text>
         </Card.Body>
         <div className="overlay">
           <div className="social">
-            <a href={linkedin}>
-              <i className="fa fa-linkedin"></i>
-            </a>
+            {facebook && (
+              <a href={facebook} target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-facebook"></i>
+              </a>
+            )}
+            {linkedin && (
+              <a href={linkedin} target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-linkedin"></i>
+              </a>
+            )}
+            {twitter && (
+              <a href={twitter} target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-twitter"></i>
+              </a>
+            )}
           </div>
         </div>
       </Card>
