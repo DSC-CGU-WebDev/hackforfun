@@ -19,7 +19,7 @@ function App() {
 
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    let difference = +new Date(`02/03/${year}`) - +new Date();
+    let difference = +new Date(`02/13/${year}`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -103,6 +103,7 @@ function App() {
         <h1>Hack For Fun</h1>
         <div id="timer">
           <div className="time">{time}</div>
+          <h2>To End!</h2>
         </div>
         <div
           style={{
