@@ -108,6 +108,9 @@ hr {
   border-color: rgb(194, 191, 191);
   color: black;
 }
+a.disabled {
+  pointer-events: none;
+}
 @media (max-width: 1070px) {
   .btn-discord {
     width: 20%;

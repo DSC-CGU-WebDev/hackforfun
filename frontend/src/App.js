@@ -45,7 +45,7 @@ function App() {
 
   var time =
     timeLeft.days === undefined
-      ? "Time's up!"
+      ? ""
       : timeLeft.days +
         "D" +
         ":" +
@@ -103,7 +103,7 @@ function App() {
         <h1>Hack For Fun</h1>
         <div id="timer">
           <div className="time">{time}</div>
-          <h2>To End!</h2>
+          <h2>Event has ended.</h2>
         </div>
         <div
           style={{
@@ -125,7 +125,7 @@ function App() {
             href="https://forms.gle/jjz4X6sD3CwMNhrr6"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-theme"
+            className="btn btn-theme disabled"
           >
             Register now
           </a>
